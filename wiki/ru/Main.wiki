@@ -1,0 +1,14 @@
+﻿#summary Список всех страниц
+
+== Начало ==
+
+[http://code.google.com/p/swrp/wiki/Installing Установка мода]
+
+
+== Использование мода ==
+
+[http://code.google.com/p/swrp/wiki/Commands Игровые команды]
+
+== UCP ==
+
+[http://code.google.com/p/swrp/wiki/UCP Установка и настройка]

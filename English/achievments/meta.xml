@@ -1,0 +1,11 @@
+<meta>
+	<info author="PrettySweetie" name="Buildings System" version="1.0"/>
+	
+	<script src="ach_s.lua"/>
+	<script src="ach_c.lua" type="client" />
+
+	<export function="givePlayerAch"/>
+	<export function="givePlayerAchC"/>
+
+     	<file src="achopen.mp3" />
+</meta>

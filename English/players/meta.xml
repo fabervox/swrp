@@ -1,0 +1,16 @@
+<meta>
+	<info author="PrettySweetie" name="Player Manager" version="1.0"/>
+	
+	<script src="players_main.lua"/>
+	<script src="register_c.lua" type="client"/>
+	<script src="register_s.lua"/>
+	<script src="lq_s.lua"/>
+	<export function="isLoggedIn"/>
+	<export function="entSucces"/>
+	<script src="player_infos.lua" type="client"/>
+	<export function="givePlayerXP"/>
+	<export function="savePlayersAccounts"/>
+
+     <file src="sounds/lvlup.mp3" />
+
+</meta>

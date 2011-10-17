@@ -1,0 +1,22 @@
+<busineses>
+    <home>
+        <house price="1000000" ownerid="0" name="Nobody" x="1410.17578125" y="969.9375" z="10.812976837158" dim="1" int="0" value1="0" value2="200" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="11" />
+        <house price="300000" ownerid="0" name="Nobody" x="2117.6298828125" y="896.8583984375" z="11.1796875" dim="2" int="0" value1="0" value2="60" value3="0" value4="0" value5="0" opt1="2115.3984375" opt2="919.3095703125" opt3="10.8203125" lock="0" type="6" />
+        <house price="300000" ownerid="0" name="Nobody" x="2637.005859375" y="1129.4150390625" z="11.1796875" dim="4" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="1107.98046875" opt3="10.8203125" lock="0" type="6" opt1="2638.5322265625" />
+        <house price="500000" ownerid="0" name="Nobody" x="2627.904296875" y="2349.18359375" z="10.8203125" dim="7" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="1" opt1="0" />
+        <house price="250000" ownerid="0" name="Nobody" x="2779.7734375" y="2453.873046875" z="11.0625" dim="8" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="3" opt1="0" />
+        <house price="100000" ownerid="0" name="Nobody" x="2342.419921875" y="2741.5263671875" z="10.8203125" dim="10" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="10" opt1="0" />
+        <house price="300000" ownerid="0" name="Nobody" x="1442.3466796875" y="2360.5673828125" z="10.8203125" dim="11" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="7" opt1="0" />
+        <house price="500000" ownerid="0" name="Nobody" x="1599.380859375" y="2221.47265625" z="11.0625" dim="12" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="2200.5234375" opt3="10.8203125" lock="0" type="6" opt1="1596.728515625" />
+        <house price="200000" ownerid="0" name="Nobody" x="1643.48828125" y="2354.513671875" z="10.812967300415" dim="13" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="9" opt1="0" />
+        <house price="300000" ownerid="0" name="Nobody" x="1656.603515625" y="1733.2587890625" z="10.82811164856" dim="15" int="0" value1="300" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="3" opt1="0" />
+        <house price="200000" ownerid="0" name="Nobody" x="2102.2392578125" y="2257.39453125" z="11.0234375" dim="16" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="3" opt1="0" />
+        <house price="400000" ownerid="0" name="Nobody" x="2085.720703125" y="2090.541015625" z="11.057899475098" dim="18" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="7" opt1="0" />
+        <house price="600000" ownerid="0" name="Nobody" x="2187.7392578125" y="2469.451171875" z="11.2421875" dim="19" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="2474.0751953125" opt3="10.8203125" lock="0" type="6" opt1="2203.5185546875" />
+        <house price="500000" ownerid="0" name="Nobody" x="2247.7109375" y="2396.16796875" z="10.8203125" dim="21" int="0" value1="0" value2="0" value3="0" value4="0" value5="0" opt2="0" opt3="0" lock="0" type="7" opt1="0" />
+        <house price="10000" ownerid="0" name="Nobody" x="2597.951171875" y="1155.6689453125" z="10.8203125" dim="25" int="0" value1="0" value2="1000" value3="0" value4="0" value5="0" opt1="0" opt2="0" opt3="0" lock="0" type="12" />
+        <house price="1000000" ownerid="0" name="Nobody" x="2637.2294921875" y="2352.0107421875" z="10.8203125" dim="26" int="0" value1="0" value2="1000" value3="0" value4="0" value5="0" opt1="0" opt2="0" opt3="0" lock="0" type="2" />
+        <house price="420500" ownerid="0" name="Nobody" x="1624.650390625" y="1018.126953125" z="10.8203125" dim="17" int="0" value1="11.1" value2="10" value3="0" value4="0" value5="0" opt1="0" opt2="0" opt3="0" lock="0" type="5" />
+        <house price="670000" ownerid="0" name="Nobody" x="1353.6435546875" y="1153.8662109375" z="10.8203125" dim="18" int="0" value1="2700" value2="20" value3="0" value4="0" value5="0" opt1="0" opt2="0" opt3="0" lock="0" type="8" />
+    </home>
+</busineses>

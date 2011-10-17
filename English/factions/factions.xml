@@ -1,0 +1,16 @@
+<factions>
+    <factiones>
+        <faction name="FBI" num="0" x="257.33" y="188.27" z="1008.1718" rang1="Рядовой" rang2="Младший агент" rang3="Агент" rang4="Зам. директора" rang5="Директор ФБР" skin1="163" skin2="164" skin3="165" skin4="166" skin5="286" type="1" money="0" />
+        <faction name="Полиция" num="1" x="257" y="188" z="1008.1718" rang1="Рядовой" rang2="Младший офицер" rang3="Офицер" rang4="Старший офицер" rang5="Шериф" skin1="280" skin2="281" skin3="282" skin4="288" skin5="284" type="1" money="0" />
+        <faction name="Правительство" num="2" x="362" y="174" z="1008" rang1="Охранник" rang2="Водитель" rang3="Депутат" rang4="Мэр" rang5="Президент" skin1="163" skin2="255" skin3="227" skin4="228" skin5="147" type="4" money="0" />
+        <faction name="СМИ" num="3" x="2612" y="2268" z="10.8203" rang1="Новенький" rang2="Оператор" rang3="Диктор" rang4="Ведущий" rang5="Директор" skin1="60" skin2="133" skin3="242" skin4="186" skin5="187" type="5" money="0" />
+        <faction name="Инструктора" num="4" x="1168.443359375" y="1364.6494140625" z="10.812507629395" rang1="Новенький" rang2="Младший инструктор" rang3="Инструктор" rang4="Старший инструктор" rang5="Главный инструктор" skin1="20" skin2="46" skin3="171" skin4="153" skin5="59" type="6" money="0" />
+        <faction name="МЧС" num="5" x="1606" y="1817" z="10.8203" rang1="Новенький" rang2="Младший спасатель" rang3="Спасатель" rang4="Старший спасатель" rang5="Директор МЧС" skin1="277" skin2="274" skin3="275" skin4="276" skin5="70" type="3" money="600" />
+        <faction name="Русская Мафия" num="6" x="1935" y="1761" z="12.8203" rang1="Новенький" rang2="Проверенный" rang3="Бандит" rang4="Вор в законе" rang5="Босс" skin1="98" skin2="112" skin3="111" skin4="120" skin5="147" type="2" money="0" />
+        <faction name="Нигеры" num="7" x="1640" y="1971" z="10.8203" rang1="Новенький" rang2="Нига" rang3="Диллер" rang4="Бандюга" rang5="Главарь" skin1="102" skin2="103" skin3="106" skin4="104" skin5="142" type="2" money="0" />
+        <faction name="ЛКН" num="8" x="1855" y="930" z="10.82" rang1="Новенький" rang2="Проверенный" rang3="Налетчик" rang4="Капо" rang5="Крестный отец" skin1="124" skin2="125" skin3="127" skin4="112" skin5="258" type="2" money="0" />
+        <faction name="Старички" num="9" x="2632" y="2009" z="10.81" rang1="Престарелый" rang2="Пенсионер" rang3="Старенький" rang4="Пожилой" rang5="Кощей бесмертный" skin1="58" skin2="160" skin3="235" skin4="57" skin5="49" type="2" money="0" />
+        <faction name="Деревенщины" num="10" x="793" y="1991" z="5.79" rang1="Пахальщик" rang2="Огородник" rang3="Фермер" rang4="Колхозник" rang5="Глава колхоза" skin1="44" skin2="162" skin3="159" skin4="161" skin5="158" type="2" money="0" />
+	<faction name="Якудза" num="11" x="793" y="1991" z="5.79" rang1="Пахальщик" rang2="Огородник" rang3="Фермер" rang4="Колхозник" rang5="Глава колхоза" skin1="44" skin2="162" skin3="159" skin4="161" skin5="158" type="2" money="0" />
+    </factiones>
+</factions>

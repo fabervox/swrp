@@ -1,0 +1,12 @@
+<meta>
+	<info author="PrettySweetie" name="Vehicles System" type="script" version="1.1"/>
+	
+	<script src="cars_main.lua"/>
+	<script src="cars_client.lua" type="client"/>
+	<script src="cars_commands.lua"/>
+
+	<export function="getVehicleByOwner" />
+	<export function="donatCreateVehicle" />
+	<export function="saveCars" />
+
+</meta>

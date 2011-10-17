@@ -1,0 +1,6 @@
+<houses>
+    <home>
+        <house price="12" ownerid="51" name="Andrey_Kochepopkin" x="-706.466796875" y="2068.029296875" z="60.412307739258" dim="1" int="13" rent="0" lock="0" rentprice="0" moneys="0" renters="4" />
+        <house price="120000" ownerid="5" name="PrettySweetie" x="1684.744140625" y="2046.7705078125" z="11.46875" dim="2" int="23" rent="1" lock="0" rentprice="0" moneys="30000" renters="0" />
+    </home>
+</houses>

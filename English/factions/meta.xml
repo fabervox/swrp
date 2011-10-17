@@ -1,0 +1,18 @@
+<meta>
+	<info author="PrettySweetie" name="Factions System" version="1.1"/>
+
+	<script src="commands_main.lua"/>
+	<script src="band_commands.lua"/>
+	<script src="gov_commands.lua"/>
+	<script src="instr_commands.lua"/>
+	<script src="medic_commands.lua"/>
+	<script src="news_commands.lua"/>
+	<script src="police_commands.lua"/>
+	<script src="factions_main.lua"/>
+	<export function="getFactionInfo"/>
+	<export function="setFactionInfo"/>
+	<export function="giveFactionMoney"/>
+	<export function="clearFindPlayers"/>
+
+	<export function="saveFactions"/>
+</meta>

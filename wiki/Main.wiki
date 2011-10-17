@@ -1,0 +1,14 @@
+#summary List of all pages
+
+== First steps ==
+
+[http://code.google.com/p/swrp/wiki/Installing Installing]
+
+
+== Using game mode ==
+
+[http://code.google.com/p/swrp/wiki/Commands In-game commands]
+
+== UCP ==
+
+[http://code.google.com/p/swrp/wiki/UCP How to install and configure]

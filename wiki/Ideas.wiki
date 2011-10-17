@@ -1,0 +1,5 @@
+<wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml" height="400" width="900" up_url="http://www.google.com/moderator/#15/e=95fbf&t=95fbf.40" up_sort="HOT" up_hl="en" />
+
+En: Here you can vote and submit ideas for SwRP
+
+Ru: Здесь вы можете проголосовать за идею для мода (или выдвинуть свою)

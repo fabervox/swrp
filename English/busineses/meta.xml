@@ -1,0 +1,37 @@
+<meta>
+     <info author="PrettySweetie" name="Buisneses System" />
+     <script src="buisneses_commands.lua" />
+     <script src="buisneses_main.lua" />
+     <script src="buisneses_client.lua" type="client" />
+
+     <file src="icons/camera.png"/>
+     <file src="icons/grenade.png"/>
+     <file src="icons/sniper.png"/>
+     <file src="icons/colt45.png"/>
+     <file src="icons/heatrpg.png"/>
+     <file src="icons/spaz.png"/>
+     <file src="icons/cuntgun.png" />
+     <file src="icons/mp5.png"/>
+     <file src="icons/deserteagle.png"/>
+     <file src="icons/parachute.png"/>
+     <file src="icons/gas.png"/>
+     <file src="icons/silenced.png"/>
+     <file src="icons/green_dot.png" />
+     <file src="icons/red_dot.png" />
+     <file src="icons/black_dot.png" />
+     <file src="icons/yellow_dot.png" />
+     <file src="icons/ak47icon.png" />
+     <file src="icons/sawnofficon.png" />
+     <file src="icons/micro_uziicon.png" />
+     <file src="icons/sawnofficon.png" />
+     <file src="fill.png" />
+
+     <export function="getBuisnes"/>
+     <export function="giveToBizMoney"/>
+     <export function="giveBizMoney"/>
+     <export function="giveToBizValue"/>
+     <export function="toBuisnes"/>
+     <export function="sendBuyBusinessFunction"/>
+     <export function="getBizByOwner"/>
+     <export function="saveBusineses"/>
+</meta>

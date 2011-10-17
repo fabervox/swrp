@@ -1,0 +1,10 @@
+<meta>
+	<info author="PrettySweetie" name="Jobs System" type="script" version="1.1"/>
+
+	<script src="jobs_main.lua"/>
+	<script src="jobs_client.lua" type="client"/>
+	<script src="marker_jobs.lua" type="client"/>
+	<script src="meh_job.lua"/>
+	<script src="taxi_job.lua"/>
+	<export function="toWork"/>
+</meta>

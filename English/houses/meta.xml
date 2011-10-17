@@ -1,0 +1,16 @@
+<meta>
+	<info author="PrettySweetie" name="House System" version="1.3"/>
+
+	<script src="house_main.lua"/>
+	<script src="house_commands.lua"/>
+
+	<script src="house_client.lua" type="client"/>
+	<script src="house_gui.lua" type="client"/>
+
+	<export function="getHouse"/>
+	<export function="getMaxHouses"/>
+	<export function="enterHouse"/>
+	<export function="toHouse"/>
+	<export function="saveHouses"/>
+	<export function="giveHouseMoney" />
+</meta>

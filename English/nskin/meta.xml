@@ -1,0 +1,6 @@
+<meta>
+     <info author="Mastertobi" type="misc" name="Nich's Skin Selector remake by MasterTobi" description="Skinselector" version="0.2"/>
+<script src="c_skinselect.lua" type="client"/>
+<script src="s_skinselect.lua" type="server"/>
+     <export function="clothShopEvent"/>
+</meta>

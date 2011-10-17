@@ -1,0 +1,34 @@
+<meta>
+     <info author="PrettySweetie" name="Server" type="gamemode" version="1.3"/>
+     <script src="script.lua" />
+     <script src="chat_system.lua" />
+     <script src="phone_system.lua" />
+
+     <script src="client/main.lua" type="client" />
+     <script src="client/pdd.lua" type="client" />
+
+     <include resource="buildings" />
+     <include resource="busineses" />
+     <include resource="cars" />
+     <include resource="factions" />
+     <include resource="houses" />
+     <include resource="jobs" />
+     <include resource="players" />
+     <include resource="nskin" />
+     <include resource="achievments" />
+     <include resource="trailer-job" />
+     <include resource="customblips" />
+     <include resource="mabako" />
+
+
+     <file src="ServerProp.xml" type="server" />
+
+     <export function="playerToPoint"/>
+     <export function="sendClientActionMessage"/>
+     <export function="sendActionMessage"/>
+     <export function="playerNearPDD"/>
+
+
+     <map src="sweetiemap/sweetiemap.map" />
+
+</meta>

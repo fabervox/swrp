@@ -1,0 +1,7 @@
+<meta>
+	<info author="PrettySweetie" name="Trucker job" type="script" version="1.3"/>
+	
+	<script src="trailer_c.lua" type="client"/>
+	<script src="trailer_s.lua"/>
+
+</meta>

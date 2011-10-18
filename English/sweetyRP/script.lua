@@ -27,21 +27,21 @@
 		local armourpickup = createPickup ( 221.3281,188.0654,1003.0312, 1, 100 )
 		local healthpickup = createPickup ( 222.0009,186.5429,1003.0312, 0, 100 )
 		local mayorarmourpickup = createPickup ( 351.453125,216.3388671875,1008.3828125, 3, 1242 )
-		createPickup ( 1713.748046875,1303.3134765625,10.827939987183, 3, 1239 ) -- работа таксистом
-		createPickup ( 2399.462890625,1482.697265625,10.8203125, 3, 1239 ) -- работа механиком
-		createPickup ( 2371.98046875,2760.1083984375,10.8203125, 3, 1239 ) -- работа свипером
-		createPickup ( 1643.3720703125,2335.9345703125,10.8203125, 3, 1239 ) -- работа водителем автобуса
-		createPickup ( 2814.703125,973.3115234375,10.75, 3, 1239 ) -- работа дальнобойщиком
-		createBlip ( 2399.462890625,1482.697265625,10.8203125, 58, 2, 255, 0, 0, 255, 0, 330 ) -- работа механиком
-		createBlip ( 1713.748046875,1303.3134765625,10.827939987183, 59, 2, 255, 0, 0, 255, 0, 330 ) -- работа таксистом
-		createBlip ( 2371.98046875,2760.1083984375,10.8203125, 60, 2, 255, 0, 0, 255, 0, 330 ) -- работа свипером
-		createBlip ( 1643.3720703125,2335.9345703125,10.8203125, 61, 2, 255, 0, 0, 255, 0, 330 ) -- работа водителем автобуса
-		createBlip ( 1607.203125,1815.240234375,10.8203125, 22, 2, 255, 0, 0, 255, 0, 330 ) -- больница
-		createBlip ( 1736.5888671875,1898.990234375,11.139877319336, 55, 2, 255, 0, 0, 255, 0, 330 ) -- аренда машин
-		createBlip ( 2133.2607421875,1403.697265625,11.1328125, 55, 2, 255, 0, 0, 255, 0, 330 ) -- авторынок
-		createBlip ( 1168.689453125,1353.2724609375,10.921875, 36, 2, 255, 0, 0, 255, 0, 330 ) -- автошкола
-		createBlip ( 2814.703125,973.3115234375,10.75, 51, 2, 255, 0, 0, 255, 0, 330 ) -- дальнобойщики
-		--createBlip ( 2133.2607421875,1403.697265625,11.1328125, 55, 2, 255, 0, 0, 255, 0, 330 ) -- авторынок
+		createPickup ( 1713.748046875,1303.3134765625,10.827939987183, 3, 1239 ) -- taxi driver job
+		createPickup ( 2399.462890625,1482.697265625,10.8203125, 3, 1239 ) -- mechanic job
+		createPickup ( 2371.98046875,2760.1083984375,10.8203125, 3, 1239 ) -- street cleaner job
+		createPickup ( 1643.3720703125,2335.9345703125,10.8203125, 3, 1239 ) -- bus driver job
+		createPickup ( 2814.703125,973.3115234375,10.75, 3, 1239 ) -- truck driver job
+		createBlip ( 2399.462890625,1482.697265625,10.8203125, 58, 2, 255, 0, 0, 255, 0, 330 ) -- mechanic job
+		createBlip ( 1713.748046875,1303.3134765625,10.827939987183, 59, 2, 255, 0, 0, 255, 0, 330 ) -- taxi driver job
+		createBlip ( 2371.98046875,2760.1083984375,10.8203125, 60, 2, 255, 0, 0, 255, 0, 330 ) -- street cleaner job
+		createBlip ( 1643.3720703125,2335.9345703125,10.8203125, 61, 2, 255, 0, 0, 255, 0, 330 ) -- bus driver job
+		createBlip ( 1607.203125,1815.240234375,10.8203125, 22, 2, 255, 0, 0, 255, 0, 330 ) -- hospital
+		createBlip ( 1736.5888671875,1898.990234375,11.139877319336, 55, 2, 255, 0, 0, 255, 0, 330 ) -- car rent
+		createBlip ( 2133.2607421875,1403.697265625,11.1328125, 55, 2, 255, 0, 0, 255, 0, 330 ) -- car market
+		createBlip ( 1168.689453125,1353.2724609375,10.921875, 36, 2, 255, 0, 0, 255, 0, 330 ) -- driving school
+		createBlip ( 2814.703125,973.3115234375,10.75, 51, 2, 255, 0, 0, 255, 0, 330 ) -- truck drivers
+		--createBlip ( 2133.2607421875,1403.697265625,11.1328125, 55, 2, 255, 0, 0, 255, 0, 330 ) -- car market
 		local ammopickup = createPickup ( 288.0966796875,-109.7119140625,1001.515625, 3, 1274 )
 		local buypickup = createPickup ( 2.3837,-29.0126,1003.5494, 3, 1274 )
 		setTimer ( SeeThePlayers, 1000, 0 )
@@ -76,10 +76,10 @@ addEventHandler("onPlayerJoin", getRootElement(), setCameraOnPlayerJoin)
 
 function onPlayerJoin ( )
 	outputChatBox("Welcome to " .. tostring ( success ) .. " server", source, 51,51,255)
-	outputChatBox("Game admin: " .. tostring ( serveradmin1 ) .. " ", source, 153,102,255)
+	outputChatBox("Administrator: " .. tostring ( serveradmin1 ) .. " ", source, 153,102,255)
 	outputChatBox("Scripter: " .. tostring ( scripter1 ) .. " ", source, 204,153,255)
-	outputChatBox("Site: " .. tostring ( site1 ) .. " ", source, 204,153,204)
-	outputChatBox("Mode version: " .. tostring ( version1 ) .. " ", source, 153,204,204)
+	outputChatBox("Website: " .. tostring ( site1 ) .. " ", source, 204,153,204)
+	outputChatBox("Gamemode version: " .. tostring ( version1 ) .. " ", source, 153,204,204)
 end
 
 addEventHandler ( "onPlayerJoin", getRootElement ( ), onPlayerJoin )
@@ -153,7 +153,7 @@ function SeeThePlayers( )
 					exports.factions:giveFactionMoney( 3, tonumber(tax) )
 	            end
 	            if getElementData ( player, "rentcar" ) > 0 and hours == 12 then
-               		outputChatBox ("Information: Car rent ended",player, 0,153,51 )
+               		outputChatBox ("Info: Car rent expired",player, 0,153,51 )
 					setElementData ( player, "rentcar", 0 )
 				end
 				if getElementData ( player, "renthouse" ) > 0 then
@@ -176,7 +176,7 @@ function SeeThePlayers( )
 					setElementData(player, "arrest", 0)
 				end
 				if(tonumber(getElementData ( player, "arrest" )) == 0) then
-					outputChatBox ( "You leaved prison", player )
+					outputChatBox ( "Info: You left prison", player, 0,153,51 )
 					setElementPosition(player, 2286.3144,2431.4667,10.8203)
 					setElementInterior( player, 0) 
 				end	
@@ -207,37 +207,37 @@ function sendClientActionMessage ( source, nomer )
     local x,y,z = getElementPosition( source )
 	nomer = tonumber(nomer)
 	if(nomer == 1) then
-		sendActionMessage( source, x, y, z, 4, "started vehicle engine" )
+		sendActionMessage( source, x, y, z, 4, "started the vehicle engine" )
 	end
 	if(nomer == 2) then
-	    sendActionMessage( source, x, y, z, 4, "stopped vehicle engine" )
+	    sendActionMessage( source, x, y, z, 4, "stopped the vehicle engine" )
 	end
 	if nomer == 3 then
 	    sendActionMessage( source, x, y, z, 4, "ate small rat" )
 	end
 	if nomer == 4 then
-	    sendActionMessage( source, x, y, z, 4, "выпивает бутылку воды" )
+	    sendActionMessage( source, x, y, z, 4, "drinks a bottle of water" )
 	end
 	if nomer == 5 then
-	    sendActionMessage( source, x, y, z, 4, "поедает зажернную во фритюре руку зомби" )
+	    sendActionMessage( source, x, y, z, 4, "eats fried in deep fat zombie's arm" )
 	end
 	if nomer == 6 then
-	    sendActionMessage( source, x, y, z, 4, "вкалывает себе лекартсво" )
+	    sendActionMessage( source, x, y, z, 4, "injects himself some medicine" )
 	end
 	if nomer == 7 then
-	    sendActionMessage( source, x, y, z, 4, "хрусит крыской" )
+	    sendActionMessage( source, x, y, z, 4, "crunches eating a rat" )
 	end
 	if nomer == 8 then
-	    sendActionMessage( source, x, y, z, 4, "хрусит гигантской крысой" )
+	    sendActionMessage( source, x, y, z, 4, "crunches eating a giant rat" )
 	end
 	if nomer == 9 then
-	    sendActionMessage( source, x, y, z, 4, "хрустит, поедая свежеиспеченную птицу-зомби" )
+	    sendActionMessage( source, x, y, z, 4, "crunches eating a freshly-fried zombie-bird" )
 	end
 	if nomer == 10 then
-	    sendActionMessage( source, x, y, z, 4, "поедает зараженный радиацией огурец" )
+	    sendActionMessage( source, x, y, z, 4, "eats a radioactive cucumber" )
 	end
 	if nomer == 11 then
-	    sendActionMessage( source, x, y, z, 4, "give her weapon" )
+	    sendActionMessage( source, x, y, z, 4, "gives his weapon" )
 	end
 end
 
@@ -260,7 +260,7 @@ function showPassport ( source, commandName, ident )
 			outputChatBox ("This player is offline",source, 255,255,127 )
 		end
 	else
-		sendActionMessage( source, x, y, z, 6, "look ate his passport" )
+		sendActionMessage( source, x, y, z, 6, "look at his passport" )
   		triggerClientEvent ( source, "showPlayerPassporte", source, name, sex, job, national, crimes)
 	end
 end
@@ -279,14 +279,14 @@ function showLicenses( source, commandName, ident )
 		for id, player in ipairs ( getElementsByType ( "player" ) ) do
 			if ( getElementData ( player, "playerid" ) ==  tonumber(ident) ) then
                 triggerClientEvent ( player, "showPlayerLic", player, drive, fly, boat, weapon, name)
-                sendActionMessage( source, x, y, z, 6, "показал " .. getPlayerName(player) .. " свои лицензии" )
+                sendActionMessage( source, x, y, z, 6, "showed his licenses to " .. getPlayerName(player) .. "" )
 			end
 		end
 		if (playeronline == 0) then
-			outputChatBox (" Этот игрок не в сети ",source, 255,255,127 )
+			outputChatBox ("This player is offline",source, 255,255,127 )
 		end
 	else
-		sendActionMessage( source, x, y, z, 6, "смотрит свои лицензии" )
+		sendActionMessage( source, x, y, z, 6, "looks at his licenses" )
   		triggerClientEvent ( source, "showPlayerLic", source, drive, fly, boat, weapon, name)
 	end
 end
@@ -314,10 +314,10 @@ function SetHelperPlayer( source, commandName, ident )
 			end
 		end
 		if (playeronline == 0) then
-			outputChatBox (" Этот игрок не в сети ",source, 255,255,127 )
+			outputChatBox ("This player is offline",source, 255,255,127 )
 		end
 	else
-    	outputChatBox ("Правильно: /sethelper ид игрока ", source,255,255,127 )
+    	outputChatBox ("Correct: /sethelper [player id]", source,255,255,127 )
     end
 end
 
@@ -330,11 +330,11 @@ function AskQuestionChat( source, cmd, ... )
 		local x,y,z = getElementPosition( source )
 		for id, player in ipairs ( getElementsByType ( "player" ) ) do
 			if tonumber(getElementData ( player, "admin" ) > 0 ) then
-                outputChatBox ("Игрок с ид "..getElementData(source, "playerid").." задал вопрос: "..text.." ", player, 255,255,255)
-                outputChatBox ("Подсказка: ответить на его вопрос: /answer "..getElementData(source, "playerid").." ответ", player, 255,204,255 )
-                outputChatBox ("Информация: Вы задали вопрос хелперам, если они в сети, то сейчас вам ответят",source, 0,153,51 )
+                outputChatBox ("Player (id "..getElementData(source, "playerid")..") asked the question: "..text.."", player, 255,255,255)
+                outputChatBox ("Hint: to answer his question type: /answer "..getElementData(source, "playerid").." [answer]", player, 255,204,255 )
 			end
 		end
+		outputChatBox ("Info: You asked the question to helpers, if they're online, they'll answer you soon",source, 0,153,51 )
 	else
 	  	outputChatBox ("Правильно: /que вопрос ", 255,255,255)
 	end
@@ -349,40 +349,20 @@ function AnsQuestionChat( source, cmd, ident, ... )
 	    if ident then
 			local x,y,z = getElementPosition( source )
 			for id, player in ipairs ( getElementsByType ( "player" ) ) do
-                outputChatBox ("Хелпер "..getPlayerName ( source ).." отвечает: "..text.." ", 255,255,255)
-                outputChatBox ("Подсказка: ответить на его вопрос: /answer "..getElementData(source, "playerid").." ответ", source, 255,204,255 )
-                outputChatBox ("Информация: Вы ответили на вопрос игрока",source, 0,153,51 )
+				if getElementData ( player, "playerid" ) == tonumber(ident)
+					outputChatBox ("Helper "..getPlayerName ( source ).." answers: "..text.." ", player, 255,255,255)
+					outputChatBox ("Info: You answered to player's question",source, 0,153,51 )
+				end
 			end
   		else
-		  	outputChatBox ("Правильно: /answer (ид игрока) вопрос ", 255,255,255)
+		  	outputChatBox ("Correct: /answer (player id) question", 255,255,255)
 		end
 	else
-	  	outputChatBox ("Правильно: /answer (ид игрока) вопрос  ", 255,255,255)
+	  	outputChatBox ("Correct: /answer (player id) question", 255,255,255)
 	end
 end
 
 addCommandHandler ("answer", AnsQuestionChat)
-
---function showMyInfos ( source, cmd )
---	outputChatBox ("Ид: "..tostring(getElementData ( source, "playerid" ))..". Номер телефона: "..tostring(getElementData ( source, "phone" ))..". Денег на телефоне: "..tostring(getElementData ( source, "pmoney" )).."$",source, 0,153,51 )
---	outputChatBox ("Зрение: "..tostring(getElementData ( source, "vision" ))..". Интеллект: "..tostring(getElementData ( source, "intel" ))..". Удача: "..tostring(getElementData ( source, "luck" ))..". Вежливость: 0",source, 0,153,51 )
---	outputChatBox ("Преступлений: "..tostring(getElementData ( source, "crimes" ))..". Национальность: "..tostring(getElementData ( source, "nat" ))..". Возраст: "..tostring(getElementData ( source, "age" )).."",source, 0,153,51 )
---	outputChatBox ("Осталось сидеть в тюрьме: "..tostring(getElementData ( source, "arrest" ))..". Дом: "..tostring(getElementData ( source, "house" ))..". Возраст: "..tostring(getElementData ( source, "age" )).."",source, 0,153,51 )
---	outputChatBox ("Ваша ICQ: "..tostring(getElementData ( source, "icq" ))..". Ваш e-mail: "..tostring(getElementData ( source, "email" ))..". Варнов: "..tostring(getElementData ( source, "warn" )).."",source, 0,153,51 )
---    outputChatBox ("Фракция: "..tostring(factions[tonumber(getElementData(source,"faction"))][1] )..". Ранг: "..tostring(getElementData ( source, "rank" ))..". Работа: "..tostring(getElementData ( source, "work" )).."",source, 0,153,51 )
---end
---
---addCommandHandler ("infos", showMyInfos)
-
---function warpItPlayerPDDToCarS ( car )
---
---outputChatBox ("Подск1", 102,204,153 )
---    warpPedIntoVehicle ( source, car )
---
---end
---
---addEvent("warpItPDDToCar",true)
---addEventHandler("warpItPDDToCar",getRootElement(),warpItPlayerPDDToCarS)
 
 carfortest = {}
 

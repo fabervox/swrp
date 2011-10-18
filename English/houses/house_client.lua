@@ -25,7 +25,7 @@ if menushow == nil or menushow == 0 then
 	addEventHandler("onClientGUIClick", GUIEditor_Button[37],
 		function ()
 		    if(getPlayerMoney(localPlayer) < tonumber(price)) then
-		    	outputChatBox("Ошибка: У вас недостаточно денег", localPlayer, 153,51,0)
+		    	outputChatBox("Error: You do not have enought money", localPlayer, 153,51,0)
 			else
    				guiSetVisible ( GUIEditor_Window[12], false )
    				triggerServerEvent ( "acceptBuyHouse", getLocalPlayer(), number, price)
@@ -104,7 +104,7 @@ if menushow == nil or menushow == 0 then
                 showCursor ( false )
                 toggleAllControls ( localPlayer, true )
 			else
-                outputChatBox("Ошибка: Дом закрыт", 102, 0, 0)
+                outputChatBox("Error: House is closed", 102, 0, 0)
 			end
 		end
     ,false)
@@ -115,13 +115,13 @@ if menushow == nil or menushow == 0 then
 				    if(getPlayerMoney(localPlayer) > tonumber(rentprice)) then
 				    	triggerServerEvent ( "acceptRentHouse", getLocalPlayer(), number, rentprice)
 					else
-						outputChatBox("Информация: У вас не хватает денег", 204,102,51)
+						outputChatBox("Info: You do not have enought money", 204,102,51)
 					end
 				else
-				    outputChatBox("Ошибка: Вы не можете снять комнату сами у себя", 153,51,0)
+				    outputChatBox("Error: You can't rent a room in your house", 153,51,0)
 				end
 			else
-			    outputChatBox("Информация: Владелец не сдает комнаты", 204,102,51)
+			    outputChatBox("Info: The owner does not hand over the room", 204,102,51)
 			end
 			guiSetVisible ( GUIEditor_Window[13], false )
 			menushow = 0
@@ -163,7 +163,7 @@ if menushow == nil or menushow == 0 then
 							if ( tonumber(getElementData ( localPlayer, "facttype" )) == 1 ) then
        							goMarker[id] = createMarker ( xp, xy, xz, "checkpoint", 2)
         						setElementVisibleTo ( goMarker, factionpl, true )
-        						outputChatBox ("Подсказка: чтобы выключить чекпоинт, введите /gostop", factionpl, 102,204,153 )
+        						outputChatBox ("Hint: to turn off the checkpoint, write /gostop", factionpl, 102,204,153 )
         						addCommandHandler ( "gostop",
 									function ()
 									    clearElementVisibleTo ( goMarker )
@@ -174,7 +174,7 @@ if menushow == nil or menushow == 0 then
 	                      	end
 						end
 					end
-               		local text = "Внимание всем! Кто то проник в помещение, направляйтесь туда"
+               		local text = "ATTENTION ALL: Someone entered the house, go there"
      				exports.sweetyRP:SendCopMessage(text)
 					setElementData ( localPlayer, "doRob", 1 )
 					setElementData ( localPlayer, "doRobExit", 1 )
@@ -183,31 +183,31 @@ if menushow == nil or menushow == 0 then
 					menushow = 0
 					toggleAllControls ( localPlayer, true )
 			    	if(findmoneys > 16) then
-			    		outputChatBox("Информация: Взлом удался! Теперь вам надо пробыть в доме 30 секунд", 0,153,51)
+			    		outputChatBox("Info: You successfuly entered house! Now you need to stay in the house 30 seconds", 0,153,51)
 			    		setTimer ( robTimeComplete, 30000, 1 )
 			    		return true
   					end
 			    	if(findmoneys > 15) then
-			    		outputChatBox("Информация: Взлом удался! Теперь вам надо пробыть в доме 1 минуту", 0,153,51)
+			    		outputChatBox("Info: You successfuly entered house! Now you need to stay in the house 1 minute", 0,153,51)
 			    		setTimer ( robTimeComplete, 60000, 1 )
 			    		return true
                   	end
 			    	if(findmoneys > 14) then
-			    	   	outputChatBox("Информация: Взлом удался! Теперь вам надо пробыть в доме 1 минуту и 10 секунд", 0,153,51)
+			    	   	outputChatBox("Info: You successfuly entered house! Now you need to stay in the house 1 minute and 10 seconds", 0,153,51)
 			    	   	setTimer ( robTimeComplete, 70000, 1 )
 			    	   	return true
                     end
 					if(findmoneys > 10) then
-			    		outputChatBox("Информация: Взлом удался! Теперь вам надо пробыть в доме 1 минуту и 20 секунд", 0,153,51)
+			    		outputChatBox("Info: You successfuly entered house! Now you need to stay in the house 1 minute and 20 seconds", 0,153,51)
 			    		setTimer ( robTimeComplete, 80000, 1 )
 			    		return true
 			    	else
-			    	    outputChatBox("Информация: Взлом удался! Теперь вам надо пробыть в доме 1 минуту и 30 секунд", 0,153,51)
+			    	    outputChatBox("Info: You successfuly entered house! Now you need to stay in the house 1 minute and 30 seconds", 0,153,51)
 			    	    setTimer ( robTimeComplete, 90000, 1)
  			    		return true
 					end
 				else
-				    outputChatBox("Информация: Взлом не удался", localPlayer, 204,102,51)
+				    outputChatBox("Info: You failed", localPlayer, 204,102,51)
 				    guiSetVisible ( GUIEditor_Window[13], false )
 				    setTimer ( robTimeReset, 1800000, 1 )
 				    setElementData ( localPlayer, "robcomplete", 1)
@@ -216,7 +216,7 @@ if menushow == nil or menushow == 0 then
 				menushow = 0
 				toggleAllControls ( localPlayer, true )
 			else
-				outputChatBox("Ошибка: Вы уже делали кражу в последние 30 минут!", localPlayer, 102, 0, 0)
+				outputChatBox("Error: You have done the theft in the last 30 minutes!", 102, 0, 0)
 			end
 			showCursor ( false )
 			guiSetVisible ( GUIEditor_Window[13], false )
@@ -229,13 +229,13 @@ if menushow == nil or menushow == 0 then
 		local robOK = math.random(0,10)
 		local localPlayerlucky = getElementData(localPlayer, "luck")
    			if ( getElementData ( localPlayer, "duty" ) == 1 ) then
-				outputChatBox("Информация: Вы сломали дверь и ворвались в дом!", localPlayer, 204,102,51)
+				outputChatBox("Info: You broke down the door and rushed into the house!", 204,102,51)
                 triggerServerEvent ( "acceptEnterHouse", getLocalPlayer(), number)
-                local text = "Внимание всем! Кто то проник в помещение, направляйтесь туда"
+                local text = "ATTENTION ALL! Someone entered the house, head back"
 				exports.sweetyRP:SendCopMessage(text)
 				guiSetVisible ( GUIEditor_Window[13], false )
 			else
-				outputChatBox("Ошибка: Вы не на дежурстве!", localPlayer, 102, 0, 0)
+				outputChatBox("Error: You are not on duty!", 102, 0, 0)
 				guiSetVisible ( GUIEditor_Window[13], false )
 			end
 			showCursor ( false )
@@ -252,13 +252,13 @@ addEventHandler( "showHouseMenu", getRootElement(), showHouseMainMenu )
 function robTimeReset (  )
 	local player = getLocalPlayer ( )
 	setElementData ( player, "robcomplete", 0)
-	outputChatBox("Информация: 30 минут прошло, вы можете снова совершить кражу", 0,153,51)
+	outputChatBox("Info: 30 minutes have passed, you can re-steal", 0,153,51)
 end
 
 function robTimeComplete ( )
 	givePlayerMoney ( math.random(1,10000) )
-	outputChatBox("Информация: Кража удалась! Теперь сматывайтесь отсюда побыстрее", 0,153,51)
-	outputChatBox("Информация: Следующую кражу вы сможете совершить через 30 минут", 0,153,51)
+	outputChatBox("Info: Stealing a success! Now here quickly unwound", 0,153,51)
+	outputChatBox("Info: Following the theft, you can make in 30 minutes", 0,153,51)
 	setElementData ( localPlayer, "robcomplete", 1)
 	setElementData ( localPlayer, "doRob", 0)
 	setTimer ( robTimeReset, 1800000, 1 )

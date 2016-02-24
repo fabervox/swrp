@@ -1,0 +1,157 @@
+# Gangs (Faction type 2) #
+
+**/tie (player id) -** to tie a player
+
+**/beat (player id) -** обыскать игрока
+
+**/clap (player id) -** to put in/put out gag in player mouth
+
+
+# Police and FBI (Faction type 1) #
+
+**/udost (player id) -** показать удостоверение игроку
+
+**/duty -** выйти на дежурство
+
+**/cuff (player id) -** снять/одеть наручники на игрока
+
+**/acp (player id) -** attach player to you
+
+**/dacp (player id) -** deattach player from you
+
+**/su (player id) (crime) -** give wanted star to player
+
+**/arrest (player id) (time in minutes) -** arrest this player
+
+**/find (player id) -** find this player. Attention! Поиск не получится если игрок в здании
+
+**/stopfind - прекратить поиск игрока**
+
+**/frisk (player id) -** обыскать игрока
+
+**/free (player id) -** отпустить игрока из тюрьмы
+
+**/megaphone (текст) -** сказать что то в мегафон
+
+
+# Emergency (Faction type 3) #
+
+**/duty -** выйти на дежурство
+
+**/heal (player id) -** вылечить игрока
+
+
+# Goverment (Faction type 4) #
+
+**/settax**
+
+
+# News Company (Faction type 5) #
+
+**/broad -** выйти в прямой эфир
+
+**/broadguest (player id) -** пригласить игрока в прямой эфир
+
+
+# Instructors (Faction type 6) #
+
+**/startlesson (player id) -** начать урок с игроком, или прекратить его
+
+**/givelic (player id) (license id) -** give license to this player
+
+# House #
+
+**/housesell -** sell house
+
+**/housecontrol -** управление домом
+
+
+# Vehicles #
+
+**/carpark -** park your car
+
+**/lockmycar -** close your car
+
+
+# Busineses #
+
+**/bizsell -** sell your busines
+
+**/bizinfo -**
+
+**/buybiz -**
+
+
+# Chat #
+
+**/adv (текст) -** реклама (пока не пашет)
+
+**/act (действие) -** замена **/me**
+
+**/l (текст) -** местное сообщение
+
+**/low (текст) -** тихо сказать
+
+**/w (текст) -** шепнуть
+
+**/b (текст) -** местный нон рп чат
+
+**/do (действие) -** действие от 3-его лица, dont work
+
+
+**/try (действие) -** dont work
+
+
+# Faction #
+
+**/invite (ид) -** принять во фракцию.
+
+**/uninvite (ид) -** выгнать
+
+**/giverank (ид) ранг -** дать ранг игроку
+
+**/f (текст) -** фр. рп чат
+
+**/fb (текст) -** фр. не рп чат.
+
+
+# Bus driver job #
+
+**/startbus -** выйти на маршрут
+
+
+# Swiper job #
+
+**/swype -** начать чистку улиц
+
+
+# Taxi job #
+
+**/starttaxi (цена поездки) -** выйти на дежурство (dont work)
+
+
+# Mechanic job #
+
+**/startmeh (fix car price) (fill car price) - Take on duty**
+
+**/fixhim (player id) -** fix player car
+
+**/fillhim (player id) -** fill player car
+
+
+# Phone #
+
+**/sms (phone number) -** send SMS
+
+**/call (phone number) -** call
+
+**/acall -** accept call
+
+**/hangup -** положить телефон
+
+
+# Other #
+
+**/passport (player id) -** показать пасспорт игроку, или себе (если без ид)
+
+**/licenses (player id) -** показать свои лицензии игроку, или себе (если без ид)
